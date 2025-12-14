@@ -6,8 +6,9 @@ obj/
 # User-specific
 *.user
 *.suo
+*.userosscache
+*.sln.docstates
 
 # OS
 .DS_Store
 Thumbs.db
-
