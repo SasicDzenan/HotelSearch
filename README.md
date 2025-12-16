@@ -10,7 +10,6 @@ The application provides:
 - A search endpoint that ranks hotels by price and distance from a given location
 - Paging support for search results
 
----
 
 ## Architecture Overview
 
@@ -34,7 +33,6 @@ The solution follows **Clean Architecture** principles and is organized into cle
 
 This structure ensures low coupling, high cohesion, and easy extensibility.
 
----
 
 ## Search and Ranking Logic
 
@@ -47,7 +45,6 @@ Distance is calculated using the **Haversine formula**.
 
 Paging is applied **after ranking**, ensuring consistent and predictable results.
 
----
 
 ## API Endpoints
 
@@ -69,7 +66,6 @@ Paging is applied **after ranking**, ensuring consistent and predictable results
 ### Health Check
 - `GET /health`
 
----
 
 ## Testing Strategy
 
@@ -88,7 +84,6 @@ Tests are executed using:
 dotnet test
 ```
 
----
 
 ## Performance Considerations
 
@@ -100,7 +95,6 @@ This approach is suitable for an in-memory PoC.
 In a production environment, distance calculations and sorting would likely be delegated to the persistence layer
 with proper indexing and query optimization.
 
----
 
 ## Security Considerations
 
@@ -111,7 +105,6 @@ with proper indexing and query optimization.
 Authentication and authorization are intentionally omitted due to the scope of the assignment,
 but the API pipeline is prepared for adding them.
 
----
 
 ## AI Assistance
 
@@ -122,7 +115,6 @@ AI tools such as **ChatGPT** and **GitHub Copilot** were used to:
 
 All generated code was reviewed, adapted, and tested manually.
 
----
 
 ## How to Run
 
@@ -143,7 +135,6 @@ dotnet test
 
 Swagger UI is available in the development environment.
 
----
 
 ## Future Improvements
 
@@ -153,7 +144,6 @@ Swagger UI is available in the development environment.
 - Structured logging
 - CI/CD pipeline
 
----
 
 ## Summary
 
