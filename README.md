@@ -125,7 +125,7 @@ All generated code was reviewed, adapted, and tested manually.
 ```bash
 dotnet restore
 dotnet build
-dotnet run
+dotnet run --project HotelSearch/HotelSearch.csproj
 ```
 
 ### Run tests
